@@ -1,0 +1,33 @@
+#section1-dropzone,
+#section3-dropzone {
+  background-color: #0047ab;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 17rem;
+  width: 50%;
+  min-width: 500px;
+  max-width: 800px;
+  margin: 0 auto;
+  border-radius: 20px;
+  margin-top: 5rem;
+  cursor: pointer;
+  outline: none;
+  div {
+    text-align: center;
+    p {
+      margin-top: 3rem;
+    }
+  }
+
+  transition: background-color 0.2s ease-out;
+
+  &:hover {
+    background-color: blue;
+  }
+}
+
+#section3-dropzone {
+  margin-bottom: 10rem;
+}

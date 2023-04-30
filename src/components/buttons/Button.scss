@@ -1,0 +1,32 @@
+.button {
+  background-color: #0047ab;
+  font-size: 1.2rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  font-weight: bolder;
+  padding: 1.5rem;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  display: block;
+  cursor: pointer;
+  color: white;
+  transition: background-color 0.2s ease-out;
+
+  &:hover {
+    background-color: blue;
+  }
+}
+
+#button01 {
+  margin: 10rem auto;
+}
+
+#button12 {
+  margin: 5rem auto;
+}
+
+#button23 {
+  margin: 5rem auto;
+}

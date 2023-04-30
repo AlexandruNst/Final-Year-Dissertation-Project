@@ -1,0 +1,13 @@
+.section {
+  margin-top: 10rem;
+  animation: section-fade-in 1s ease-out;
+}
+
+@keyframes section-fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

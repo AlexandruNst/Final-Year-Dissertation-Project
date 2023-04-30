@@ -1,0 +1,15 @@
+#slider {
+  padding: 5rem 5rem;
+  background-color: black;
+  margin-bottom: 10rem;
+  //   display: flex;
+  #times {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  h2,
+  h3 {
+    color: white;
+  }
+}

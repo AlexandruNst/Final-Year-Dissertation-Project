@@ -1,0 +1,57 @@
+.canvas-div {
+  height: fit-content;
+  margin-top: 4rem;
+  canvas {
+    height: 800px;
+  }
+}
+
+#reg-progress-canvas {
+  height: 800px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 5rem;
+
+  #loader {
+    width: 70px;
+    height: 70px;
+    margin: 0 auto;
+    margin-top: 5rem;
+    display: block;
+    border-radius: 50%;
+    border-top: 10px solid white;
+    animation: loader-rotate 2s infinite linear;
+  }
+}
+
+.toggles-wrapper {
+  display: flex;
+  justify-content: space-around;
+  padding: 4rem 0;
+  background-color: black;
+  color: white;
+  .ind-toggle {
+    display: flex;
+    align-items: center;
+    font-size: larger;
+    .react-toggle:not(.react-toggle--checked) .react-toggle-track {
+      background-color: #bbbbbb;
+    }
+    label {
+      margin-left: 1rem;
+    }
+  }
+}
+
+@keyframes loader-rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
