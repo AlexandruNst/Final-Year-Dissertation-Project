@@ -4,9 +4,13 @@ Demo video can be found [here](https://youtu.be/Drjh7nEQX_M)
 
 ![image](images/atlas_layers.png)
 ![image](images/superimposed.png)
+![image](images/s3_after2.png)
+
 
 # Preview
-This is the web app component of the Final Year Dissertation Project. It is an app where a researcher can visualise a subject model reconstruction and register it to the atlas by simply dragging and dropping the file containing the 3D scan, without having to write code or use the terminal. The web app also allows the researcher to drag and drop a file containing a time series, representing the haemodynamic response as a function of time. The researcher can then use a slider to visualise the recon- struction of the response on subject-specific anatomy over time dynamically. To improve the user experience, usability testing was conducted to identify potential issues and learn about the researchers’ needs.
+This is the web app component of the Final Year Dissertation Project. It is an app where a researcher can visualise a subject model reconstruction and register it to the atlas by simply dragging and dropping the file containing the 3D scan, without having to write code or use the terminal. The web app also allows the researcher to drag and drop a file containing a time series, representing the haemodynamic response as a function of time. The researcher can then use a slider to visualise the reconstruction of the response on subject-specific anatomy over time dynamically. To improve the user experience, usability testing was conducted to identify potential issues and learn about the researchers’ needs.
+
+The app was created using Flask, React and Three.js.
 
 #  Web App
 
