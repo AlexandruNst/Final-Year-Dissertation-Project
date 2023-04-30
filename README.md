@@ -32,7 +32,7 @@ The app then registers an Atlas onto the 3D model and the user can select the di
 ![image](images/s2_after2.png)
 
 ### Section 3
-Then finally in section three, the user can drag-and-drop a file containing time series data of the subject's brain activation during simple phyisical activities such as forming a fist. The user can then drag the slider to view the brain activation over time.
+Then finally in section three, the user can drag-and-drop a file containing time series data of the subject's brain activation during simple phyisical activities such as forming a fist. The activation is determined by lower or higher level of haemoglobin detected by the infrared scanner. The user can then drag the slider to view the brain activation over time.
 
 ![image](images/s3_after2.png)
 ![image](images/s3_after3.png)
@@ -47,5 +47,6 @@ First, various 3D Models of the subject are generated. These will be used later 
 Then, an Atlas is registered on the subject's mesh following two different techniques: ICP and SVD.
 
 ![image](images/registration.gif)
+![image](images/registration2.png)
 
 Three Evaluation Methods were employed to determine which technique is yielding superior results. This method is then used in the Web App.
